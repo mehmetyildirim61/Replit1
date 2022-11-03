@@ -18,6 +18,18 @@ public class SYSO_03 {
     //4
 
     public static void main(String[] args) {
-        
+        int a= 100;
+        int b = 25;
+
+        int toplam = a+b;
+        int carpim = a*b;
+        int cikarma = a-b;
+        int bolme = a/b;
+
+        System.out.println("toplam = " + toplam);
+        System.out.println("cikarma = " + cikarma);
+        System.out.println("carpim = " + carpim);
+        System.out.println("bolme = " + bolme);
+
     }
 }
