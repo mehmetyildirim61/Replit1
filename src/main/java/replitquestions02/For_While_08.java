@@ -31,4 +31,12 @@ public class For_While_08 {
     //Ascii value of x = 120
     //Ascii value of y = 121
     //Ascii value of z = 122
+    public static void main(String[] args) {
+
+        for(char i='a'; i<='z'; i++){
+            char ch= i;
+            int ASCII = i;
+            System.out.println("Ascii value of "+ch+" = "+ASCII);
+        }
+    }
 }

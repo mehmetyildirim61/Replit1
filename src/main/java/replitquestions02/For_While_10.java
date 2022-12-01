@@ -5,4 +5,12 @@ public class For_While_10 {
     //
     //
     //OUTPUT 		:   Sum of Natural Numbers 5050
+    public static void main(String[] args) {
+        int sum=0;
+        for(int i=1; i<=100; i++){
+            sum+=i;
+        }
+        System.out.println("Sum of Natural Numbers from 1 to 100 = "+sum);
+    }
+
 }
