@@ -12,4 +12,17 @@ public class List_03 {
     //Output :
     //
     //.edoc etirw ot ecin yrev si tI
+
+    public static void main(String[] args) {
+        String str = "It is very nice to write code.";
+        invertString(str);
+    }
+    static void invertString(String str){
+        String [] arr=str.split("");
+        String reverseStr ="";
+        for(int i=arr.length-1; i>=0 ; i--){
+            reverseStr+=arr[i];
+        }
+        System.out.println(reverseStr);
+    }
 }
